@@ -16,13 +16,13 @@ namespace PoolClub
     {
         public frmMain()
         {
-            Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
+            //Stopwatch stopwatch = new Stopwatch();
+            //stopwatch.Start();
 
             InitializeComponent();
 
-            stopwatch.Stop();
-            MessageBox.Show((stopwatch.ElapsedMilliseconds).ToString());
+            //stopwatch.Stop();
+            //MessageBox.Show((stopwatch.ElapsedMilliseconds).ToString());
         }
 
         private void ctrlPool1_OnTableComplete(object sender, ctrlPool.TableComplatedEvetArgs e)
